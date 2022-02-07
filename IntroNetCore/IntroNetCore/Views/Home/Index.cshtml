@@ -1,0 +1,21 @@
+﻿
+<html>
+
+<head>
+
+</head>
+<body>
+    Burası, Index View'i
+    <p>Merhaba @ViewBag.AdSoyad</p>
+    @if (ViewBag.Saat > 17)
+    {
+        <p>İyi Akşamlar</p>
+    }
+    else
+    {
+        <p>İyi günler</p>
+    }
+
+    Toplantıya katılmak için  <a asp-action="Katil" asp-controller="Home">Tıkla</a>
+</body>
+</html>

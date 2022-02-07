@@ -1,0 +1,27 @@
+﻿
+@model Katilimci 
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Katil</title>
+</head>
+<body>
+    <form method="post">
+        <input type="text" asp-for="Ad" value="" />
+        <span asp-validation-for="Ad"></span>
+        <br />
+        <input type="text" asp-for="Soyad" value="" />
+        <span asp-validation-for="Soyad"></span>
+        <br />
+        <input type="text" asp-for="Eposta" value="" />
+        <span asp-validation-for="Eposta"></span>
+        <button type="submit">Gönder</button>
+    </form>
+</body>
+</html>
