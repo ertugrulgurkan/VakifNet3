@@ -1,8 +1,34 @@
-﻿@{
+﻿@model IEnumerable<Product>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<input type="text" name="name" id="search" value="" placeholder="Aranacak kelime" />
+<a href="#" id="searchLink">Ara</a>
+
+
+@foreach (var item in Model)
+{
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">@item.Name</h3>
+            <p>@item.Description</p>
+            <p>@item.Price yerine @((decimal)item.Price * 1 - (decimal) item.Discount) TL  </p>
+
+        </div>
+    </div>
+
+}
+
+@section Scripts{ 
+  <script>
+      $(document).ready(function () {
+          $('#search').on('change', function () {
+              let word = $(this).val();
+              console.log(word);
+              $('#searchLink').attr('href', '/Home/Index?word=' + word);
+
+          });
+      });
+  </script>
+}
