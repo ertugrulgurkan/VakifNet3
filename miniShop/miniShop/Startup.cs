@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,13 @@ namespace miniShop
             services.AddSingleton<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddSession();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                    .AddCookie(option =>
+                    {
+                        option.LoginPath = "/Users/Login";
+                        option.AccessDeniedPath = "/Users/AccesDenied";
+
+                    });
             /*
              * Singleton: Bir kere constructor calisir (tek instance).
              * Transient: Her seferinde constructor calisir (birsuru instance)
@@ -52,7 +60,7 @@ namespace miniShop
             app.UseStaticFiles();
             app.UseSession();
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
