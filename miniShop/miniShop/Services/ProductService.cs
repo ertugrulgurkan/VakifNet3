@@ -22,19 +22,24 @@ namespace miniShop.Services
 
                   new Product {
 
-                Id = 1,
+                Id = 2,
                 Name = "Product B",
                 Price = new Random().Next(1, 10),
                 Description = "Description B",
                 Discount = new Random().Next(1, 10) / 100 },
                     new Product {
 
-                Id = 1,
+                Id = 3,
                 Name = "Product C",
                 Price = new Random().Next(1, 10),
                 Description = "Description C",
                 Discount = new Random().Next(1, 10) / 100 }
             };
+        }
+
+        public Product GetProductById(int id)
+        {
+            return products.Find(x => x.Id == id);
         }
 
         public List<Product> GetProducts()

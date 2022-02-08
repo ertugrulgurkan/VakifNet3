@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Life Cycle gözlemevi</h1>
+    <h3>Doğrudan nesne geçişi</h3>
+    <p>
+        Singleton: @ViewBag.Singleton
+    </p>
+    <p>
+        Transient: @ViewBag.Transient
+    </p>
+    <p>
+        Scoped: @ViewBag.Scoped
+    </p>
+    <hr />
+    <h3>Harici nesneden gelenler</h3>
+    <p>
+        Singleton: @ViewBag.SingletonService
+    </p>
+    <p>
+        Transient: @ViewBag.TransientService
+    </p>
+    <p>
+        Scoped: @ViewBag.ScopedService
+    </p>
+</div>

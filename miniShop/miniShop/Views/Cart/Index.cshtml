@@ -1,0 +1,23 @@
+﻿@model Cart
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table class="table table-striped">
+    @foreach (var cartItem in Model.CartItems)
+    {
+    <tr>
+        <td>@cartItem.Product.Name</td>
+        <td>@cartItem.Product.Price</td>
+        <td>@cartItem.Quantity</td>
+
+
+    </tr>
+    }
+    <tfoot>
+        <tr>
+            <td colspan="3">Toplam: @Model.CartTotal() TL</td>
+        </tr>
+    </tfoot>
+</table>
+

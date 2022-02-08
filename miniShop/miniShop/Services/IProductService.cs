@@ -7,5 +7,6 @@ namespace miniShop.Services
     {
         List<Product> GetProducts();
         List<Product> GetProductsByName(string name);
+        Product GetProductById(int id);
     }
 }

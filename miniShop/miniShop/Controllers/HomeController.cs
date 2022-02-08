@@ -21,7 +21,7 @@ namespace miniShop.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index(string word="")
+        public IActionResult Index(string word)
         {
             //var productService = new ProductService();
             List<Product> products = string.IsNullOrEmpty(word) ? productService.GetProducts() : productService.GetProductsByName(word);
