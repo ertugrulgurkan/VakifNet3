@@ -28,6 +28,11 @@ namespace miniShop
             services.AddSingleton<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddSession();
+            /*
+             * Singleton: Bir kere constructor calisir (tek instance).
+             * Transient: Her seferinde constructor calisir (birsuru instance)
+             * Scoped: Sadece Request her degistinde constructor calisir (kac kisi varsa o kadar instance :))  
+             */
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
