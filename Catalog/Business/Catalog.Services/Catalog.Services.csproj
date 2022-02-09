@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Catalog.Entity\Catalog.Entity.csproj" />
+    <ProjectReference Include="..\..\DataAccess\Catalog.Data\Catalog.Data.csproj" />
+    <ProjectReference Include="..\Catalog.Dto\Catalog.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

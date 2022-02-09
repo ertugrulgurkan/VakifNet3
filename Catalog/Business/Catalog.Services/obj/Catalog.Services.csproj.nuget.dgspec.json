@@ -1,0 +1,260 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Services\\Catalog.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Dto\\Catalog.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Dto\\Catalog.Dto.csproj",
+        "projectName": "Catalog.Dto",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Dto\\Catalog.Dto.csproj",
+        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Services\\Catalog.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Services\\Catalog.Services.csproj",
+        "projectName": "Catalog.Services",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Services\\Catalog.Services.csproj",
+        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Dto\\Catalog.Dto.csproj": {
+                "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Business\\Catalog.Dto\\Catalog.Dto.csproj"
+              },
+              "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Common\\Catalog.Entity\\Catalog.Entity.csproj": {
+                "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Common\\Catalog.Entity\\Catalog.Entity.csproj"
+              },
+              "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\DataAccess\\Catalog.Data\\Catalog.Data.csproj": {
+                "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\DataAccess\\Catalog.Data\\Catalog.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Common\\Catalog.Entity\\Catalog.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Common\\Catalog.Entity\\Catalog.Entity.csproj",
+        "projectName": "Catalog.Entity",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Common\\Catalog.Entity\\Catalog.Entity.csproj",
+        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Common\\Catalog.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\DataAccess\\Catalog.Data\\Catalog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\DataAccess\\Catalog.Data\\Catalog.Data.csproj",
+        "projectName": "Catalog.Data",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\DataAccess\\Catalog.Data\\Catalog.Data.csproj",
+        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\DataAccess\\Catalog.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Common\\Catalog.Entity\\Catalog.Entity.csproj": {
+                "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Vakıfbank\\.NET Core Part III\\Catalog\\Common\\Catalog.Entity\\Catalog.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
