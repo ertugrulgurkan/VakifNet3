@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            localStorage.setItem('token','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InR1cmtheSIsImVtYWlsIjoidHVya2F5LnVya21lekBkaW5hbWlremloaW4uY29tIiwibmJmIjoxNjQ0NTc3OTI4LCJleHAiOjE2NDQ1ODg3MjgsImlzcyI6InR1cmtheSIsImF1ZCI6InR1cmtheSJ9.udkhuVRO-K57Vo0pIpWac82WkSbiMCLvI6KWWe2J0Kg');
+            let token = localStorage.getItem('token');
+            console.log(btoa('turkay:123'));
+            let headerOption = {
+                'Authorization': 'Bearer ' + token
+            }
+            $.ajax({
+                headers: headerOption,
+                url:'https://localhost:5001/api/products',
+                method:'GET',
+                success:function(data){
+                   console.log(data); 
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
