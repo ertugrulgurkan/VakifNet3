@@ -45,7 +45,7 @@ namespace Catalog.API.Controllers
                     audience: "turkay",
                     claims: claims,
                     notBefore: DateTime.Now,
-                    expires: DateTime.Now.AddHours(3),
+                    expires: DateTime.Now.AddDays(1),
                     signingCredentials: credential
 
                     );

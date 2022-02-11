@@ -6,6 +6,7 @@ using Catalog.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,24 +16,29 @@ namespace Catalog.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService productService;
+        private readonly ILogger logger;
 
-        public ProductsController(IProductService productService)
+        public ProductsController(IProductService productService, ILogger<ProductsController> logger)
         {
             this.productService = productService;
+            this.logger = logger;
         }
         [HttpGet]
+        [ResponseCache(VaryByHeader = "User-Agent", Duration = 60, VaryByQueryKeys = new[] { "test" })]
         public async Task<IActionResult> GetProducts()
         {
+
             var products = await productService.GetProducts();
-            return Ok(products);
+            logger.LogInformation("Get request sunucuya ulaştı");
+            return Ok(new { Products = products, Time = DateTime.Now });
         }
 
         [HttpPost]
-      
+
         public async Task<IActionResult> AddData(AddProductRequest request)
         {
             if (ModelState.IsValid)
@@ -46,6 +52,7 @@ namespace Catalog.API.Controllers
         }
         [HttpGet("{id}")]
         [AllowAnonymous]
+
         public async Task<IActionResult> GetProduct(int id)
         {
             ProductDetailResponse product = await productService.GetProduct(id);

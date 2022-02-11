@@ -31,13 +31,9 @@ C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catal
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Catalog.Data.dll
@@ -72,3 +68,6 @@ C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catal
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\HealthChecks.SqlServer.dll
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll

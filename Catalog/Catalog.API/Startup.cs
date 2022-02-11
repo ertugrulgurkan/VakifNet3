@@ -47,8 +47,8 @@ namespace Catalog.API
             var connectionString = Configuration.GetConnectionString("db");
             services.AddDbContext<CatalogDbContext>(opt => opt.UseSqlServer(connectionString));
             services.AddAutoMapper(typeof(CatalogProfile));
-            
-            
+
+            services.AddResponseCaching();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Catalog.API", Version = "v1" });
@@ -77,6 +77,8 @@ namespace Catalog.API
                 cp.AllowAnyHeader();
             }));
 
+            services.AddHealthChecks()
+                    .AddSqlServer(connectionString);
 
 
 
@@ -126,12 +128,14 @@ namespace Catalog.API
             app.UseRouting();
             app.UseCors("Allow");
 
+            app.UseResponseCaching();
+
            // app.UseBadwordsFilter();
 
             app.UseAuthentication();
             app.UseAuthorization();
 
-
+            app.UseHealthChecks("/health");
 
             app.UseEndpoints(endpoints =>
             {

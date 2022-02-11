@@ -1,3 +1,4 @@
+using Catalog.API.Logging;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -20,6 +21,17 @@ namespace Catalog.API
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.ConfigureLogging((hostingContext, logging) =>
+                    {
+                       
+
+                        logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                        logging.AddConsole();
+                        logging.AddDebug();
+                        logging.ClearProviders();
+                        var config = new ColoredConsoleLoggerConfiguration { LogLevel = LogLevel.Information, Color = ConsoleColor.Red };
+                        logging.AddProvider(new ColoredConsoleLoggerProvider(config));
+                    });
                     webBuilder.UseStartup<Startup>();
                 });
     }
