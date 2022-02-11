@@ -10,5 +10,6 @@ namespace Catalog.Data.Repositories
    public interface IProductRepository: IRepository<Product>
     {
         Task<Product> SearchProductsByName(string name);
+       
     }
 }

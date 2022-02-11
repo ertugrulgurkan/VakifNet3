@@ -13,7 +13,7 @@ C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Busin
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Business\Catalog.Services\obj\Debug\net5.0\Catalog.Services.AssemblyInfoInputs.cache
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Business\Catalog.Services\obj\Debug\net5.0\Catalog.Services.AssemblyInfo.cs
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Business\Catalog.Services\obj\Debug\net5.0\Catalog.Services.csproj.CoreCompileInputs.cache
-C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Business\Catalog.Services\obj\Debug\net5.0\Catalog.Services.csproj.CopyComplete
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Business\Catalog.Services\obj\Debug\net5.0\Catalog.Services.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Business\Catalog.Services\obj\Debug\net5.0\ref\Catalog.Services.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Business\Catalog.Services\obj\Debug\net5.0\Catalog.Services.pdb
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Business\Catalog.Services\obj\Debug\net5.0\Catalog.Services.csproj.CopyComplete

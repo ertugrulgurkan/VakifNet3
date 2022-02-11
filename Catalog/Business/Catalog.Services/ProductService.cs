@@ -16,7 +16,7 @@ namespace Catalog.Services
         private IProductRepository repository;
         private IMapper mapper;
 
-        public ProductService(IProductRepository repository, IMapper mapper )
+        public ProductService(IProductRepository repository, IMapper mapper)
         {
             this.repository = repository;
             this.mapper = mapper;
@@ -24,10 +24,17 @@ namespace Catalog.Services
 
         public async Task<Product> AddProductAsync(AddProductRequest request)
         {
-             var product =  mapper.Map<Product>(request);
+            var product = mapper.Map<Product>(request);
 
             await repository.Add(product);
             return product;
+        }
+
+        public async Task<ProductDetailResponse> GetProduct(int id)
+        {
+            Product product = await repository.GetById(id);
+            var detail = mapper.Map<ProductDetailResponse>(product);
+            return detail;
         }
 
         public async Task<IList<ProductSummaryDisplayResponse>> GetProducts()
@@ -38,6 +45,25 @@ namespace Catalog.Services
             //products.ToList().ForEach(pr => list.Add(new ProductSummaryDisplayResponse { Id = pr.Id, Name = pr.Name, Price = pr.Price }));
 
             return list;
+        }
+
+        public async Task<bool> IsProductExist(int id)
+        {
+            return await repository.IsEntityExists(id);
+        }
+
+        public async Task Remove(int id)
+        {
+            await repository.Delete(id);
+        }
+
+        public async Task<ProductDetailResponse> UpdateProduct(UpdateProductRequest request)
+        {
+            var product = mapper.Map<Product>(request);
+            Product updated = await repository.Update(product);
+            return mapper.Map<ProductDetailResponse>(updated);
+
+
         }
     }
 }

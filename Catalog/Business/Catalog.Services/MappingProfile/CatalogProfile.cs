@@ -16,6 +16,8 @@ namespace Catalog.Services.MappingProfile
         {
             CreateMap<Product, ProductSummaryDisplayResponse>();
             CreateMap<AddProductRequest, Product>();
+            CreateMap<Product, ProductDetailResponse>();
+            CreateMap<UpdateProductRequest, Product>();
 
         }
     }

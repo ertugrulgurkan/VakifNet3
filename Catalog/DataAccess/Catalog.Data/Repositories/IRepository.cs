@@ -11,5 +11,9 @@ namespace Catalog.Data.Repositories
     {
         Task<IList<T>> GetAll();
         Task Add(T entity);
+        Task<T> GetById(int id);
+        Task<Product> Update(T product);
+        Task<bool> IsEntityExists(int id);
+        Task Delete(int id);
     }
 }

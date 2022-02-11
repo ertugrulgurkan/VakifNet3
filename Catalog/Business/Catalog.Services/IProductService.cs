@@ -11,6 +11,11 @@ namespace Catalog.Services
         //YAGNI: You Ain't Gonna Need it: İhtiyacın yoksa yazma!
         Task<IList<ProductSummaryDisplayResponse>> GetProducts();      
         Task<Product> AddProductAsync(AddProductRequest request);
+        Task<ProductDetailResponse> GetProduct(int id);
+        Task<ProductDetailResponse> UpdateProduct(UpdateProductRequest request);
+
+        Task<bool> IsProductExist(int id);
+        Task Remove(int id);
     }
 
 }

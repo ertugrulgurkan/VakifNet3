@@ -20,7 +20,6 @@ C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catal
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -60,7 +59,6 @@ C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catal
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\obj\Debug\net5.0\staticwebassets\Catalog.API.StaticWebAssets.xml
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\obj\Debug\net5.0\scopedcss\bundle\Catalog.API.styles.css
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\obj\Debug\net5.0\Catalog.API.RazorTargetAssemblyInfo.cache
-C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\obj\Debug\net5.0\Catalog.API.csproj.CopyComplete
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\obj\Debug\net5.0\Catalog.API.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\obj\Debug\net5.0\ref\Catalog.API.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\obj\Debug\net5.0\Catalog.API.pdb
@@ -73,3 +71,4 @@ C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catal
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\Catalog.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

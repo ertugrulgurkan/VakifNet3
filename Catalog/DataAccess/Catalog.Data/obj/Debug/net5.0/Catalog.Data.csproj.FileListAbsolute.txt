@@ -15,3 +15,4 @@ C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\DataA
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\DataAccess\Catalog.Data\obj\Debug\net5.0\ref\Catalog.Data.dll
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\DataAccess\Catalog.Data\obj\Debug\net5.0\Catalog.Data.pdb
 C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\DataAccess\Catalog.Data\obj\Debug\net5.0\Catalog.Data.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\.NET Core Part III\Catalog\DataAccess\Catalog.Data\obj\Debug\net5.0\Catalog.Data.csproj.CopyComplete

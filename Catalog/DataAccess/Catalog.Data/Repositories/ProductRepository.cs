@@ -33,5 +33,32 @@ namespace Catalog.Data.Repositories
             await catalogDbContext.SaveChangesAsync();
 
         }
+
+        public async Task<Product> GetById(int id)
+        {
+            var product = await catalogDbContext.Products.FindAsync(id);
+            return product;
+
+        }
+
+        public async Task<Product> Update(Product product)
+        {
+            catalogDbContext.Products.Update(product);
+            await catalogDbContext.SaveChangesAsync();
+            return product;
+        }
+
+        public async Task<bool> IsEntityExists(int id)
+        {
+           return await catalogDbContext.Products.AnyAsync(x => x.Id == id);
+        }
+
+        public async Task Delete(int id)
+        {
+            var product = await catalogDbContext.Products.FirstOrDefaultAsync(p => p.Id == id);
+            catalogDbContext.Products.Remove(product);
+            await catalogDbContext.SaveChangesAsync();
+
+        }
     }
 }
